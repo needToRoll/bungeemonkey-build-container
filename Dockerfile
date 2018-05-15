@@ -1,3 +1,3 @@
 FROM buildpack-deps:artful-scm
 
-RUN apt-get update && apt-get install -y nodejs
+RUN apt-get update && apt-get install -y nodejs && apt-get install -y npm
